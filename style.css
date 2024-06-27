@@ -1,0 +1,239 @@
+body {
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background: linear-gradient(to right, rgb(211, 205, 205),rgb(136, 131, 131));
+}
+
+.container {
+	text-align: center;
+}
+
+.weather-card {
+	background-color: rgb(31, 30, 30);
+	border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+	padding: 20px;
+	box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+	transition: transform 0.3s ease-in-out;
+	width: 450px;
+}
+h1{
+    color: white;
+}
+#city-name{
+    color: white;
+}
+
+.weather-card:hover {
+	transform: scale(1.05);
+}
+
+#city-input {
+	padding: 15px;
+	margin: 10px 0;
+	width: 70%;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	font-size: 16px;
+}
+
+#city-input:focus {
+	outline: none;
+	border-color: #17191b;
+}
+
+#city-input::placeholder {
+	color: #aaa;
+}
+
+#city-input-btn {
+	padding: 10px;
+	background-color: #2196F3;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+#city-input-btn:hover {
+	background-color: #1565C0;
+}
+
+#weather-info {
+	display: none;
+}
+
+#weather-icon {
+	width: 100px;
+	height: 100px;
+}
+
+#temperature {
+	font-size: 24px;
+	font-weight: bold;
+	margin: 8px 0;
+    color: white;
+}
+
+#description {
+	font-size: 18px;
+	margin-bottom: 10px;
+    color: white;
+}
+
+#wind-speed {
+	font-size: 18px;
+	color: rgb(255, 0, 0);
+}
+
+#date {
+	font-size: 18px;
+	color: rgb(255, 0, 0);
+}
+
+
+.clock{
+    border: 10px solid black;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    margin: 148px auto;
+    position: relative;
+    background-color:black;
+}
+.twelve{
+    position: absolute;
+    top: 0px;
+    left: 90px;
+    color: aliceblue;
+}
+.six{
+    position: absolute;
+    bottom: 0px;
+    left: 90px;
+    color: aliceblue;
+}
+.three{
+    position: absolute;
+    top: 50%;
+    left: 190px;
+    color: aliceblue;
+}
+.nine{
+    position: absolute;
+    top:50%;
+    left: 2px;
+    color: aliceblue;
+}
+.one{
+    position: absolute;
+    top: 18px;
+    left: 150px;
+    color: aliceblue;
+}
+.two{
+    position: absolute;
+    top: 55px;
+    left: 180px;
+    color: aliceblue;
+}
+.four{
+    position: absolute;
+    bottom: 40px;
+    left: 175px;
+    color: aliceblue;
+}
+.five{
+    position: absolute;
+    bottom: 8px;
+    left: 142px;
+    color: aliceblue;
+}
+.seven{
+    position: absolute;
+    bottom: 13px;
+    left: 43px;
+    color: aliceblue;
+}
+.eight{
+    position: absolute;
+    bottom: 45.5px;
+    left: 15px;
+    color: aliceblue;
+}
+.ten{
+    position: absolute;
+    top: 55px;
+    left: 12px;
+    color: aliceblue;
+}
+.eleven{
+    position: absolute;
+    top: 16px;
+    left: 39px;
+    color: aliceblue;    
+}
+.hand{
+    position:absolute;
+    transform-origin:bottom center;
+    left: 50% ;
+    top: 50% ;
+    background-color: aqua;
+    border-radius: 20px;
+}
+#hour{
+   width: 7px;
+   height: 50px;
+   left: 90px;
+   top: 50px; 
+}
+#minute{
+    width: 4px;
+    height: 70px;
+    background-color:aquamarine;
+    top: 32px;
+    left: 90px;
+}
+#second{
+    width: 2px;
+    height: 90px;
+    left: 92px;
+    background-color: white;
+    top: 12px;
+}
+.wall{
+    display: flex;
+    text-decoration-style: solid;
+    background-color: rgb(31, 30, 30);
+    height: 579.5px;
+    width: 450px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.clock:hover{
+    transform: scale(1.05);
+}
+footer{
+    color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    position: absolute;
+    text-align: center;
+    bottom: 100px;
+    font-size: 3rem;
+    left: 750px;
+}
+header{
+    position: absolute;
+    color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 3rem;
+}
+.quote:hover{
+    transform: scale(1.05);
+}
